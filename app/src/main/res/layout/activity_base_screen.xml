@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:padding="20dp" android:orientation="vertical" android:gravity="center_vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="124dp" android:layout_width="143dp" android:layout_gravity="center" android:id="@+id/imageView2"/>
+
+    <Spinner android:layout_height="40dp" android:layout_width="match_parent" android:id="@+id/sel_spinner" />
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <EditText android:padding="16dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_rect_width" android:inputType="numberDecimal" android:hint="Width" android:ems="10"/>
+
+    <EditText android:padding="16dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_rect_height" android:inputType="numberDecimal" android:hint="Height" android:ems="10"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <EditText android:padding="16dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_triangle_base" android:inputType="numberDecimal" android:hint="Base" android:ems="10"/>
+
+    <EditText android:padding="16dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_triangle_height" android:inputType="numberDecimal" android:hint="Height" android:ems="10"/>
+
+</LinearLayout>
+
+    <TextView android:gravity="center" android:layout_height="54dp" android:layout_width="match_parent" android:id="@+id/txt_result" android:hint="Result" android:textStyle="bold" android:textSize="30sp" android:background="#61F4BE36"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="right" android:id="@+id/btn_calculate" android:textSize="14sp" app:strokeColor="#FFFFFF" android:text="Calculate"/>
+
+</LinearLayout>
